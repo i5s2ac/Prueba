@@ -116,20 +116,6 @@ function PlasmicHomepage__RenderFunc(props) {
               className={classNames("__wab_instance", sty.navbar)}
             />
 
-            <h1
-              data-plasmic-name={"h1"}
-              data-plasmic-override={overrides.h1}
-              className={classNames(
-                projectcss.all,
-                projectcss.h1,
-                projectcss.__wab_text,
-                sty.h1
-              )}
-            >
-              {hasVariant(globalVariants, "screen", "mobileOnly")
-                ? "Analytics for developers can be better"
-                : "Analytics for \ndevelopers can\nbe better"}
-            </h1>
             <div className={classNames(projectcss.all, sty.freeBox__eP5Fh)}>
               <p.Stack
                 as={"div"}
@@ -297,6 +283,20 @@ function PlasmicHomepage__RenderFunc(props) {
                   ) : null}
                 </div>
                 <div className={classNames(projectcss.all, sty.freeBox__b9ZsH)}>
+                  <h1
+                    data-plasmic-name={"h1"}
+                    data-plasmic-override={overrides.h1}
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.h1,
+                      projectcss.__wab_text,
+                      sty.h1
+                    )}
+                  >
+                    {hasVariant(globalVariants, "screen", "mobileOnly")
+                      ? "Analytics for developers can be better"
+                      : "Analytics for \ndevelopers can\nbe better"}
+                  </h1>
                   <p.PlasmicImg
                     alt={""}
                     className={classNames(sty.img__n8SZi)}

@@ -47,23 +47,6 @@
   width: 100%;
   min-width: 0;
 }
-.h1 {
-  position: relative;
-  width: 100%;
-  height: auto;
-  max-width: 800px;
-  min-width: 0;
-}
-@media (min-width: 0px) and (max-width: 930px) {
-  .h1 {
-    width: 100%;
-    max-width: 100%;
-    padding-right: 172px;
-    margin-left: 0px;
-    padding-left: 216px;
-    min-width: 0;
-  }
-}
 .freeBox__eP5Fh {
   display: flex;
   position: relative;
@@ -398,6 +381,23 @@
   max-width: 100%;
   min-width: 0;
   padding: 8px;
+}
+.h1 {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  min-width: 0;
+}
+@media (min-width: 0px) and (max-width: 930px) {
+  .h1 {
+    width: 100%;
+    max-width: 100%;
+    padding-right: 172px;
+    margin-left: 0px;
+    padding-left: 216px;
+    min-width: 0;
+  }
 }
 .img__n8SZi {
   position: relative;
